@@ -45,10 +45,7 @@ struct StoryBrain{
         )
     ]
     
-//    let title = ["You see a fork in the road.","You see a tiger.","You find a treasure chest."]
-//    let choice1 = ["Take a left.","Shout for help.","Open it."]
-//    let choice2 = ["Take a right.","Play dead.","Check for traps."]
-    
+
     func getStoryTitle() -> String{
         return stories[storyNumber].title
     }
